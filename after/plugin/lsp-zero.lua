@@ -4,7 +4,10 @@ lsp.preset({})
 lsp.ensure_installed({
     'tsserver',
     'eslint',
-    'rust_analyzer'
+    'rust_analyzer',
+    'gopls',
+    'docker_compose_language_service',
+    'dockerls'
 })
 
 local cmp = require('cmp')
