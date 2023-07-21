@@ -1,5 +1,3 @@
-print('loading jesse/init.lua...')
-
 require('jesse.remap')
 require('jesse.set')
 
@@ -18,4 +16,3 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup('plugins')
 
-print('loaded jesse/init.lua')

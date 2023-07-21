@@ -3,11 +3,8 @@ local lsp = require('lsp-zero')
 lsp.preset({})
 lsp.ensure_installed({
     'tsserver',
-    'eslint',
     'rust_analyzer',
     'gopls',
-    'docker_compose_language_service',
-    'dockerls'
 })
 
 local cmp = require('cmp')
@@ -35,6 +32,7 @@ lsp.on_attach(function(client, bufnr)
     lsp.default_keymaps({ buffer = bufnr })
 end)
 
+-- Rust
 local rust_tools = require('rust-tools')
 rust_tools.setup({
     server = {
@@ -43,5 +41,8 @@ rust_tools.setup({
         end
     }
 })
+
+-- Go
+require('lspconfig').gopls.setup({})
 
 lsp.setup()
