@@ -1,11 +1,19 @@
 return {
     {
+        'AlexvZyl/nordic.nvim',
+        name = 'nordic',
+        lazy = false,
+        config = function() 
+            require 'nordic' .load()
+        end
+    },
+    {
         'shaunsingh/nord.nvim',
         name = 'nord',
         lazy = false,
-        config = function()
-            vim.cmd([[colorscheme nord]])
-        end
+        -- config = function()
+        --     vim.cmd([[colorscheme nord]])
+        -- end
     },
     {
         'rose-pine/neovim', 
