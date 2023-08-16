@@ -46,11 +46,15 @@ rust_tools.setup({
 require('lspconfig').gopls.setup({})
 
 -- Typescript
-require('lspconfig').tsserver.setup {
-  on_attach = on_attach,
-  filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
-  cmd = { "typescript-language-server", "--stdio" }
-}
-
+require('lspconfig').tsserver.setup({
+    on_attach = function(client, bufnr)
+        client.server_capabilities.documentFormattingProvider = false
+        client.server_capabilities.documentRangeFormattingProvider = false
+        ts_utils.setup({})
+        ts_utils.setup_client(client)
+    end,
+    filetypes = { 'typescript', 'typescriptreact', 'typescript.tsx' },
+    cmd = { 'typescript-language-server', '--stdio' },
+})
 
 lsp.setup()
