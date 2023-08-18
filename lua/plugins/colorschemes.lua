@@ -19,10 +19,5 @@ return {
         'rose-pine/neovim', 
         name = 'rose-pine',
         lazy = false,
-    },
-    {
-        'junegunn/seoul256.vim',
-        name = 'seoul256',
-        lazy = false,
-    }	
+    }
 }
