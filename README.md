@@ -68,8 +68,11 @@
 
 
 ### Colorschemes
-[nordic](https://github.com/AlexvZyl/nordic.nvim) Warmer Nord
-[nord](https://github.com/shaunsingh/nord.nvim) Colder Nord
-[rose-pine](https://github.com/rose-pine/neovim) Soho vibes
+
+**[nordic](https://github.com/AlexvZyl/nordic.nvim)** Warmer Nord
+
+**[nord](https://github.com/shaunsingh/nord.nvim)** Colder Nord
+
+**[rose-pine](https://github.com/rose-pine/neovim)** Soho vibes
 
 
