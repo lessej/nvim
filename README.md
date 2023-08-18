@@ -1,9 +1,9 @@
 # Neovim Config
 
-### Package Manager
+## Package Manager
 [lazy.nvim](https://github.com/folke/lazy.nvim)
 
-### Plugins
+## Plugins
 **[harpoon](https://github.com/ThePrimeagen/harpoon)** - Quickly jump between working files
 - `<leader>a'` add file to quick jump list
 - `<C-e>` toggle quick jump list
@@ -48,7 +48,7 @@
 **[vim-go](https://github.com/fatih/vim-go)** - Go related tools bundled for easy use
 
 
-### Keymaps
+## Keymaps
 - Normal mode:
     - `<leader>du` open netrw
     - `J` move line below to current line without moving the cursor
@@ -67,7 +67,7 @@
     - `<leader>Y` copy into the system buffer
 
 
-### Colorschemes
+## Colorschemes
 
 **[nordic](https://github.com/AlexvZyl/nordic.nvim)** Warmer Nord
 
