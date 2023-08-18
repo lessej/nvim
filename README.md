@@ -4,14 +4,15 @@
 [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ### Plugins
-[harpoon](https://github.com/ThePrimeagen/harpoon) - Quickly jump between working files
+**[harpoon](https://github.com/ThePrimeagen/harpoon)** - Quickly jump between working files
 - `<leader>a'` add file to quick jump list
 - `<C-e>` toggle quick jump list
 - `<C-u>` jumtp to file 1
 - `<C-i>` jumtp to file 2
 - `<C-o>` jumtp to file 3
 - `<C-p>` jumtp to file 4
-[lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim) - Boilerplate LSP setup with autocompletion
+
+**[lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)** - Boilerplate LSP setup with autocompletion
 - Autocompletion mappings:
     - `<C-p>` select previous item in autocompletion list
     - `<C-n>` select next item in autocompletion list
@@ -19,23 +20,32 @@
     - `<C-Space>` complete selection
 - Rust tools:
     - `<leader>ca` rust tools hover actions
-[lualine](https://github.com/nvim-lualine/lualine.nvim) - Bottom status bar
-[neogit](https://github.com/NeogitOrg/neogit) - Use git within neovim
+    
+**[lualine](https://github.com/nvim-lualine/lualine.nvim)** - Bottom status bar
+
+**[neogit](https://github.com/NeogitOrg/neogit)** - Use git within neovim
 - `<leader>gs` open neogit
-[nvim-comment](https://github.com/terrortylor/nvim-comment) - Toggle comments for selected lines
+
+**[nvim-comment](https://github.com/terrortylor/nvim-comment)** - Toggle comments for selected lines
 - `<leader>cl` toggle comment selected lines
-[rust-tools](https://github.com/simrat39/rust-tools.nvim) - Rust related tools bundled for easy use
-[telescope](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy finding
+
+**[rust-tools](https://github.com/simrat39/rust-tools.nvim)** - Rust related tools bundled for easy use
+
+**[telescope](https://github.com/nvim-telescope/telescope.nvim)** - Fuzzy finding
 - `<leader>pf` search by filename within project directory
 - `<leader>ps` search for keywords within project (Grep >)
 - `<leader>pg` search by filename within git files
 - `<leader>gr` go to references
 - `<leader>gi` go to implementations
-[treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Syntax highlighting
-[treesitter-playground](https://github.com/nvim-treesitter/playground) - See what's going on with treesitter behind the scenes
-[undotree](https://github.com/mbbill/undotree) - Undo history visualizer
+
+**[treesitter](https://github.com/nvim-treesitter/nvim-treesitter)** - Syntax highlighting
+
+**[treesitter-playground](https://github.com/nvim-treesitter/playground)** - See what's going on with treesitter behind the scenes
+
+**[undotree](https://github.com/mbbill/undotree)** - Undo history visualizer
 - `<leader>u` open undotree
-[vim-go](https://github.com/fatih/vim-go) - Go related tools bundled for easy use
+
+**[vim-go](https://github.com/fatih/vim-go)** - Go related tools bundled for easy use
 
 
 ### Keymaps
