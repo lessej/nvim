@@ -43,7 +43,7 @@
     - `<leader>du` open netrw
     - `J` move line below to current line without moving the cursor
     - `<C-d>` move down half a page without moving the cursor
-    - `<C-u>` move up half a page without moving the cursor
+    - `<C-S-d>` move up half a page without moving the cursor
     - `<leader>y` copy into the system buffer 
     - `<leader>p` avoid overwriting the buffer when pasting
     - `<leader>er` open diagnostic in floating window
