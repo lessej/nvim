@@ -43,3 +43,6 @@ vim.keymap.set('n', '<leader>x', '<cmd>!chmod +x %<CR>', { silent = true })
 vim.keymap.set('n', '<leader>vs', '<cmd>vsplit<CR><C-w>l', { silent = true })
 vim.keymap.set('n', '<leader>vl', '<C-w>l')
 vim.keymap.set('n', '<leader>vh', '<C-w>h')
+
+-- In terminal insert mode, change to terminal normal mode
+vim.keymap.set('t', '<Esc>', '<C-\\><C-n><C-w>h', { silent = true })
