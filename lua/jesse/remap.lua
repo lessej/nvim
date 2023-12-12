@@ -47,5 +47,11 @@ vim.keymap.set('n', '<C-h>', '<C-w>h')
 vim.keymap.set('n', '<C-j>', '<C-w>j')
 vim.keymap.set('n', '<C-k>', '<C-w>k')
 
+-- Resize windows
+vim.keymap.set('n', '-', '<cmd>res -1<CR>');
+vim.keymap.set('n', '=', '<cmd>res +1<CR>');
+vim.keymap.set('n', '_', '<cmd>vert res -1<CR>');
+vim.keymap.set('n', '+', '<cmd>vert res +1<CR>');
+
 -- In terminal insert mode, change to terminal normal mode
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n><C-w>h', { silent = true })
