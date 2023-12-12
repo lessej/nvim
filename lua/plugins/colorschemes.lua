@@ -1,6 +1,7 @@
 return {
     {
-        'dzfrias/noir.nvim',
+    
+        'JesseLeung97/noir.nvim',
         name = 'noir',
         lazy = false,
         config = function()
