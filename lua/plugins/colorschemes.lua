@@ -1,6 +1,5 @@
 return {
     {
-    
         'JesseLeung97/noir.nvim',
         name = 'noir',
         lazy = false,
@@ -20,9 +19,6 @@ return {
         'shaunsingh/nord.nvim',
         name = 'nord',
         lazy = true,
-        -- config = function()
-        --     vim.cmd([[colorscheme nord]])
-        -- end
     },
     {
         'rose-pine/neovim', 
