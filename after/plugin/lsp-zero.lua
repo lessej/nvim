@@ -1,11 +1,6 @@
 local lsp = require('lsp-zero')
 
 lsp.preset({})
-lsp.ensure_installed({
-    'tsserver',
-    'rust_analyzer',
-    'gopls',
-})
 
 local cmp = require('cmp')
 local cmp_select = { behavior = cmp.SelectBehavior.Select }
