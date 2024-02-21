@@ -1,5 +1,4 @@
 require('toggleterm').setup({})
 
--- Alt/option + t
-vim.keymap.set('n', '†', vim.cmd.ToggleTerm)
-vim.keymap.set('t', '†', vim.cmd.ToggleTerm)
+vim.keymap.set('n', '<C-y>', vim.cmd.ToggleTerm)
+vim.keymap.set('t', '<C-y>', vim.cmd.ToggleTerm)

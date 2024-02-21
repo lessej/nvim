@@ -11,7 +11,7 @@ return {
         'AlexvZyl/nordic.nvim',
         name = 'nordic',
         lazy = true,
-        config = function() 
+        config = function()
             require 'nordic' .load()
         end
     },
@@ -21,7 +21,7 @@ return {
         lazy = true,
     },
     {
-        'rose-pine/neovim', 
+        'rose-pine/neovim',
         name = 'rose-pine',
         lazy = true,
     }
