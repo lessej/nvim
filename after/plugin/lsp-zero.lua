@@ -48,7 +48,14 @@ require('lspconfig').tsserver.setup({
         ts_utils.setup({})
         ts_utils.setup_client(client)
     end,
-    filetypes = { 'typescript', 'typescriptreact', 'typescript.tsx' },
+    filetypes = { 
+        'javascript',
+        'javascriptreact',
+        'javascript.jsx',
+        'typescript',
+        'typescriptreact',
+        'typescript.tsx'
+    },
     cmd = { 'typescript-language-server', '--stdio' },
 })
 
