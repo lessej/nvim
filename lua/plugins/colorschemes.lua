@@ -1,16 +1,8 @@
 return {
     {
-        'slugbyte/lackluster.nvim',
-        name = 'lackluster',
-        lazy = false,
-        config = function()
-            vim.cmd([[colorscheme lackluster]])
-        end
-    },
-    {
         'JesseLeung97/noir.nvim',
         name = 'noir',
-        lazy = true,
+        lazy = false,
         config = function()
             vim.cmd([[colorscheme noir]])
         end

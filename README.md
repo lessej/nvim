@@ -23,9 +23,6 @@
     
 **[lualine](https://github.com/nvim-lualine/lualine.nvim)** - Bottom status bar
 
-**[neogit](https://github.com/NeogitOrg/neogit)** - Use git within neovim
-- `<leader>gs` open neogit
-
 **[nvim-comment](https://github.com/terrortylor/nvim-comment)** - Toggle comments for selected lines
 - `<leader>cl` toggle comment selected lines
 
