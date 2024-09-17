@@ -1,6 +1,7 @@
 return {
     {
-        'JesseLeung97/noir.nvim',
+        'git@github.com:JesseLeung97/noir.nvim.git',
+        -- 'JesseLeung97/noir.nvim',
         name = 'noir',
         lazy = false,
         config = function()
