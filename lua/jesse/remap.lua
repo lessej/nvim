@@ -55,3 +55,8 @@ vim.keymap.set('n', '+', '<cmd>vert res +1<CR>');
 
 -- In terminal insert mode, change to terminal normal mode
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n><C-w>h', { silent = true })
+
+-- Surround word in in (), "", ''
+vim.keymap.set('n', '<leader>(', 'viw<Esc>a)<Esc>bi(<Esc>', { silent = true })
+vim.keymap.set('n', '<leader>"', 'viw<Esc>a"<Esc>bi"<Esc>', { silent = true })
+vim.keymap.set('n', '<leader>\'', 'viw<Esc>a\'<Esc>bi\'<Esc>', { silent = true })
