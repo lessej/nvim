@@ -1,11 +1,19 @@
 return {
     {
+        'aktersnurra/no-clown-fiesta.nvim',
+        name = 'simple',
+        lazy = false,
+        config = function()
+            vim.cmd([[ colorscheme no-clown-fiesta ]])
+        end
+    },
+    {
         'git@github.com:JesseLeung97/noir.nvim.git',
         -- 'JesseLeung97/noir.nvim',
         name = 'noir',
-        lazy = false,
+        lazy = true,
         config = function()
-            vim.cmd([[colorscheme noir]])
+            -- vim.cmd([[colorscheme noir]])
         end
     },
     {
@@ -13,7 +21,7 @@ return {
         name = 'nordic',
         lazy = true,
         config = function()
-            require 'nordic' .load()
+            require('nordic').load()
         end
     },
     {
@@ -27,3 +35,4 @@ return {
         lazy = true,
     }
 }
+
